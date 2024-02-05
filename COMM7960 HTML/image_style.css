@@ -1,0 +1,19 @@
+.image1{
+    border-radius:50%;
+}
+
+.image2{
+    border-radius:30px;
+}
+
+.image3{
+    opacity: 0.8;
+}
+
+.image4_grayscale{
+    filter: grayscale(70%);
+}
+
+.image4_blur{
+    filter: blur(20px);
+}
