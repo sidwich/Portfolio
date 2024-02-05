@@ -1,0 +1,16 @@
+p{
+    font-size: 5;
+    color:rgb(0,255,255);
+}
+
+p,ul,ol
+{
+    color: violet;
+}
+
+.standout
+{
+    color: blue;
+}
+
+/*这玩意是css的注释*/
