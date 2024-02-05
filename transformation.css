@@ -1,0 +1,15 @@
+.image1.hover{
+    transform: translate(30px, 30px);
+}
+
+.image2::cue-region{
+    transform: rotate(45deg);
+}
+
+.image3.hover{
+    transform: scale(0.5);
+}
+
+.image4.hover{
+    transform: skew(50deg, -15deg);
+}
