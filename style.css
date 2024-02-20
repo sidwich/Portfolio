@@ -1,16 +1,55 @@
-p{
-    font-size: 5;
-    color:rgb(0,255,255);
-}
-
-p,ul,ol
-{
-    color: violet;
-}
-
-.standout
-{
-    color: blue;
-}
-
 /*这玩意是css的注释*/
+body{
+    background-color: black;
+    color: white;
+    width: 100%;
+    min-width: 1500px;
+}
+
+nav{
+    margin-right: 50px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+ul{
+    height: 100px;
+    width:100%;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+  
+}
+ul li{
+    float:right;
+    margin: 20px;  
+    color: white;
+    text-align: right;
+}
+
+li a{
+    display: inline-block;
+    width: auto;
+    text-decoration: none;
+    color:white;
+}
+
+li a:hover {
+    color: red; /*设置鼠标悬停时的颜色*/
+}
+
+nav ul li a.CurrentPage {
+    color: red; /*设置导航栏中当前界面按钮的颜色*/
+}
+
+.WebLogo {
+    margin-left: 11%;
+    width: 100px;
+    height: auto; /* 保持图片比例 */
+}
+
+.MainPageTitle{
+    margin-top: 4rem;
+    margin-left: 200px;
+}
+
