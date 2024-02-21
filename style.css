@@ -43,6 +43,7 @@ nav ul li a.CurrentPage {
 }
 
 .WebLogo {
+    float:left;
     margin-left: 11%;
     width: 100px;
     height: auto; /* 保持图片比例 */
