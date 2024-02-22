@@ -1,33 +1,87 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <!--这是一个注释-->
-        <title>游戏作品|郭彦辰的作品集</title>
-        <!--<meta>记录元数据，不在网页上显示，给搜索引擎和系统解读用。比如搜索页面标题下的小字-->
-        <link rel="icon" href="image/jill图.jpg" type="image/jpg"> <!--设置标签页图标-->
-        <meta name = "descripiton" content = "你好">
-        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
-    </head>
 
-    <body>
-        <header>
-            <nav>
-                <div class="LogoZone">
-                    <img src="image/BannerLogo.gif" alt="Logo" class="WebLogo">
-                    <p style="text-align: left;margin-left: 43%;font-size: 36;">郭彦辰|四明治</p>
-                </div>
-                <div>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <!--这是一个注释-->
+    <title>游戏作品|郭彦辰的作品集</title>
+    <!--<meta>记录元数据，不在网页上显示，给搜索引擎和系统解读用。比如搜索页面标题下的小字-->
+    <link rel="icon" href="image/jill图.jpg" type="image/jpg"> <!--设置标签页图标-->
+    <meta name="descripiton" content="你好">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="LogoZone">
+                <img src="image/BannerLogo.gif" alt="Logo" class="WebLogo" hspace="20">
+                <p style="text-align: left;font-size: 36;">郭彦辰|四明治</p>
+            </div>
+            <div>
                 <ul class="Bannerul">
-                    <li><a href="Photo.html">摄影</a></li>                    
+                    <li><a href="Photo.html">摄影</a></li>
                     <li><a href="analysis.html">拆解分析</a></li>
                     <li><a href="works.html" class="CurrentPage">游戏作品</a></li>
                     <li><a href="resume.html">简历</a></li>
                     <li><a href="index.html">首页</a></li>
                 </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="clear"></div>
+
+    <div class="PhotoPageTitle" style="border: none;"> <!--直接挪用摄影那边的css，自删边框-->
+        <h1 style="text-align: center; font-size: 63px;">游戏作品</h1>
+    </div>
+    <div class="parallax"></div><!--滚动时差式背景图-->
+
+    <article class="WorkArticle">
+        <span style="text-align: left; font-size: 32px; letter-spacing: 2px;">逻辑锁</span>
+        <img src="image/logic.webp" class="WorksLogo" width="30%">
+        <p style="font-size: 22px; margin-top: -0.01rem; margin-bottom: 0;">2023 GENE AI＋游戏开发季 - 复杂与简单</p>
+        <div style="display: flex; justify-content: flex-start;">
+            <p class="WorksMainArticle">
+                本游戏主要玩法分为两个阶段，第一阶段是扩展了推箱子规则的puzzle，第二阶段是带有数值RPG的八轴射击的俯视角战斗。玩家在第一阶段中推箱子时需要为接下来的战斗阶段思考策略，因为被推入坑中的箱子都会成为战斗阶段的道具或机关，帮助玩家数值成长并渡过战斗阶段，收获更多金币来调整下一次推箱子阶段的收益，以此来达到玩法循环。<br><br>在玩法设计上，该玩法在两个不同的阶段为玩家提供了不同的思考侧重。在推箱子阶段玩家会需要更多的观察和决策，而在战斗环节则需要更多的判断和执行，玩家画像更适合独立游戏核心玩家。两个阶段互相影响能够给玩家提供更多的动机和反馈，以此来让玩家更容易达到心流状态。<br><br>反思和方法论沉淀：​在制作和迭代方面，由于两位程序分别负责不同的部分，导致最后两个部分的对接并不顺利，这是交流和项目管理不足导致的。作为游戏策划，应该更多的主动和程序交流，了解进度，可以借助策划文档来为程序划分功能需求，并作为checklist来记录完成的功能。
+            </p>
+            <div style="display: flex; flex-direction: column; justify-content: space-between;">
+                <div style="margin: auto;">
+                    <img src="image/Logic_1.webp" width="480rem" align="right">
+                    <img src="image/Logic_2.webp" width="480rem" align="right" vspace="5%">
                 </div>
-            </nav>
-        </header>
-    </body>
+            </div>
+        </div>
+        <p style="font-size: 22px; margin-top: -2rem;">担任职位</p>
+        <p style="font-size: 18px; margin-top: -1rem;">策划，PM，程序</p>
+        <ul style="list-style-type: none;">
+            <li class="WorksButton"><a>介绍视频</a></li>
+            <li class="WorksButton"><a>作品地址</a></li>
+            <li class="WorksButton"><a>策划文档</a></li>
+        </ul>
+    </article>
+
+    <article class="WorkArticle">
+        <span style="text-align: left; font-size: 32px; letter-spacing: 2px;">卡牌大师计划</span>
+        <img src="image/ProjectCardShooterLogo.png" class="WorksLogo" width="20%">
+        <p style="font-size: 22px; margin-top: -0.01rem; margin-bottom: 0;">2023 个人游戏策划案玩法原型</p>
+        <div style="display: flex; justify-content: flex-start;">
+            <p class="WorksMainArticle">
+                本游戏意在将第一人称射击玩法和DBG卡牌游戏融合，玩家需要在第一人称操作下和敌人拉扯走位，同时思考如何利用手上的费用和卡牌等资源来击败敌人，并在rougelike的玩法循环中收获数值成长和牌库的构筑。<br><br>本作玩法受到《Neon
+                White》的启发，希望为卡牌游戏增添更多动作属性。但强化了执行环节后玩家的注意力自然要从判断和决策环节减少，所以必要的改变了玩家的手牌数量和费用获取。玩家手牌数量始终为一张，打掉或弃掉这张牌才能抽取下一张，为了扩展决策树，在观察环节玩家可以看到抽到的下一张牌和牌库中剩余的牌，以此来判断是否讲手上的牌打出。游戏最终玩法会适用于对卡牌游戏，rougelike都感兴趣的核心向玩家。<br><br>反思和方法论沉淀：​在开发玩法原型的过程中多次对游戏玩法提出质疑，修改和迭代，发现游戏玩法如果只停留在策划案阶段是纯粹的纸上谈兵，必须实际操作才会意识到玩法上的缺陷。所以对于玩法测试，最好的办法就是通过控制变量逐步修改游戏规则元素，以此来发现玩法缺陷所在并思考优化方式，修改数值或是重做系统。此外对游戏策划案的制作和迭代也有不小的收获应该先测试并确定好游戏玩法再逐渐完善策划案，否则会需要大动干戈的修改很容易出现混乱。最后在代码方面，借助CHATGPT完成代码可以更迅速的实现功能，但是使用者必须有足够的代码基础，能够分析bug出现的原因，因为GPT4的需求实现依然不够稳定。
+            </p>
+            <div style="display: flex; flex-direction: column; justify-content: space-between;">
+                <div style="margin: auto;">
+                    <img src="image/PCS_1.webp" width="480rem" align="right">
+                    <img src="image/PCS_2.webp" width="480rem" align="right" vspace="5%">
+                </div>
+            </div>
+        </div>
+        <p style="font-size: 22px; margin-top: 2.5rem;">担任职位</p>
+        <p style="font-size: 18px; margin-top: -1rem;">独立完成</p>
+    </article>
+
+
+</body>
 
 </html>

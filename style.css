@@ -24,21 +24,21 @@ nav{
     padding: 0;
     height: auto;
 }
-ul li{
+.Bannerul li{
     float:right;
     margin: 20px;  
     color: white;
     text-align: right;
 }
 
-li a{
+.Bannerul li a{
     display: inline-block;
     width: auto;
     text-decoration: none;
     color:white;
 }
 
-li a:hover {
+.Bannerul li a:hover {
     color: red; /*设置鼠标悬停时的颜色*/
 }
 
@@ -49,7 +49,7 @@ nav ul li a.CurrentPage {
 .WebLogo {
     float:left;
     margin-left: 20%;
-    max-width: 20%;
+    width: 90px;
     height: auto; /* 保持图片比例 */
 }
 
@@ -74,7 +74,53 @@ nav ul li a.CurrentPage {
     float: center;
     width:70%;
     border:red;
-    margin: auto;
+    margin: auto; /*让div能居中的重要参数*/
     padding: 0;
     border-style: solid hidden;
 }
+
+.parallax {
+    background-image: url('image/Work_head.png');
+    height: 550px;
+    width: 100%;
+  
+    /* 创建视差滚动效果 */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .WorkArticle{
+    float: center;
+    text-align: left;
+    margin: auto;
+    margin-top: 3%;
+    width: 80%;
+    border:30px transparent;
+    border-color: rgba(74,73,73,0.8);
+    border-style: hidden hidden solid hidden;
+  }
+
+  .WorksMainArticle{
+    width: 100%; 
+    line-height: 30px; 
+    font-size: 18px;
+    margin-top: 3%;
+  }
+
+  .WorksLogo{
+    vertical-align:"text-bottom";
+  }
+
+  .WorksButton{
+    width: 7%;
+    border: 1px solid white;
+    border-radius: 20px;
+  }
+
+  .WorksButton li a.hover{
+    color: black;
+    background-color: white;
+  }
+  
