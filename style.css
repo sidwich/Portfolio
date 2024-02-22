@@ -98,6 +98,7 @@ nav ul li a.CurrentPage {
     margin: auto;
     margin-top: 3%;
     width: 80%;
+    height: auto;
     border:30px transparent;
     border-color: rgba(74,73,73,0.8);
     border-style: hidden hidden solid hidden;
@@ -115,19 +116,22 @@ nav ul li a.CurrentPage {
   }
 
   .WorksButton{
-    width: 10%;
-    border: 2px solid white;
-    border-radius: 20px;
+    width: 13%;
+    height: 1.9rem;
+    border: 5px solid white;
+    border-radius: 23px;
     display: inline-block;
-    height: 10%;
-    text-decoration: none;
-    margin: auto;
+    margin-right: 4%;
     text-align: center;
+    padding: 0;
+    padding-top: 0.6%;
+    text-decoration: none;
+    color: white;
   }
-
-  .WorksButton a:hover{
+  
+  .WorksButton:hover{
     transition: 0.5s;
     color: black;
-    background-color: white;
+    background: white;
   }
   
