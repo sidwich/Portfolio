@@ -45,7 +45,7 @@ nav ul li a.CurrentPage {
 .WebLogo {
     float:left;
     margin-left: 20%;
-    width: 20%;
+    max-width: 20%;
     height: auto; /* 保持图片比例 */
 }
 
