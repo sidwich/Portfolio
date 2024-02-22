@@ -39,6 +39,7 @@ nav{
 }
 
 .Bannerul li a:hover {
+    transition: 0.3s;
     color: red; /*设置鼠标悬停时的颜色*/
 }
 
@@ -103,7 +104,7 @@ nav ul li a.CurrentPage {
   }
 
   .WorksMainArticle{
-    width: 100%; 
+    width: 80%; 
     line-height: 30px; 
     font-size: 18px;
     margin-top: 3%;
@@ -114,12 +115,18 @@ nav ul li a.CurrentPage {
   }
 
   .WorksButton{
-    width: 7%;
-    border: 1px solid white;
+    width: 10%;
+    border: 2px solid white;
     border-radius: 20px;
+    display: inline-block;
+    height: 10%;
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
   }
 
-  .WorksButton li a.hover{
+  .WorksButton a:hover{
+    transition: 0.5s;
     color: black;
     background-color: white;
   }
