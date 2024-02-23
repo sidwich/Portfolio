@@ -84,7 +84,7 @@ nav ul li a.CurrentPage {
 }
 
 .parallax {
-    background-image: url('image/Work_head.png');
+    background-image: url('image/Work_head.webp');
     height: 550px;
     width: 100%;
   
@@ -96,7 +96,7 @@ nav ul li a.CurrentPage {
   }
 
   .Analysis_parallax {
-    background-image: url('image/Analysis_Head.png');
+    background-image: url('image/Analysis_Head.webp');
     height: 700px;
     width: 100%;
     text-align: center;
@@ -131,6 +131,21 @@ nav ul li a.CurrentPage {
     vertical-align:"text-bottom";
   }
 
+  @keyframes WorkANi {
+        0% {opacity: 0; margin-left: 5%;}
+        100% {opacity: 1;}
+  }
+ /*动画，但是不用js做不了可是区域再显示动画，弃之*/
+  .WorkANIDiv{
+    position: relative;
+    animation-name: WorkANi;
+    animation-duration: 0.9s;
+    animation-delay: 0.5s;
+    animation-timing-function: linear;
+  }
+
+
+
   .WorksButton{
     width: 13%;
     height: 1.9rem;
@@ -158,6 +173,7 @@ nav ul li a.CurrentPage {
     border-style: hidden hidden solid hidden;
     border-color: white;
     margin-left: 0;
+    margin-bottom: 5%;
   }
 
   .Analysis_BMItem img {
@@ -186,5 +202,73 @@ nav ul li a.CurrentPage {
   .Analysis_BMItem button:hover{
     color: #E53726;
     background-color: black;
+    transition: 0.3s;
+  }
+
+  .SiginalAnalysis{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:grey; 
+    margin: 20px;
+    padding: 20px;
+    height: auto;
+  }
+
+  .SiginalAnalysis button{
+    background-color:#E53726;
+    color: black;
+    border: solid;
+    padding: 5px 50px;
+    cursor: pointer;
+    margin: 6%;
+    margin-left: 8%;
+  }
+
+  .SiginalAnalysis button:hover{
+    color: #E53726;
+    background-color: black;
+    transition: 0.3s;
+  }
+
+  .SiginalArticle{
+    text-align: left;
+    width: 70%; 
+    height: auto;
+    line-height: 30px; 
+    font-size: 18px;
+    margin-top: 7%;
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 50%;
+  }
+
+  .SiginalAul{
+    width: 50%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    list-style-type:circle;
+    text-decoration: none;
+  }
+
+  .SiginalAul a li{
+    width: 50%;
+    text-align: left;
+    margin: 3%;
+    border: 3px;
+    border-style: hidden hidden solid hidden;
+    padding: 5px;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .SiginalAul a{
+    text-decoration: none;
+  }
+
+  .SiginalAul li:hover{
+    border-color: #E53726;
     transition: 0.3s;
   }
