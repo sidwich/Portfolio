@@ -1,9 +1,12 @@
 /*这玩意是css的注释*/
+
+
 body{
     background-color: black;
     color: white;
     width: 100%;
     min-width: 1500px;
+    overflow-x: hidden;
 }
 
 .clear{
@@ -92,6 +95,19 @@ nav ul li a.CurrentPage {
     background-size: cover;
   }
 
+  .Analysis_parallax {
+    background-image: url('image/Analysis_Head.png');
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    line-height: 700px;
+    /* 创建视差滚动效果 */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .WorkArticle{
     float: center;
     text-align: left;
@@ -135,3 +151,40 @@ nav ul li a.CurrentPage {
     background: white;
   }
   
+  .Analysis_BMItem{
+    width: 15%;
+    text-align: left;
+    border: 4px;
+    border-style: hidden hidden solid hidden;
+    border-color: white;
+    margin-left: 0;
+  }
+
+  .Analysis_BMItem img {
+    height: 50%;
+    margin: auto;
+  }
+
+  .Analysis_BMItem p {
+    color: #E53726;
+    font-size: 20px;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    letter-spacing: 1%;
+  }
+
+  .Analysis_BMItem button{
+    background-color:#E53726;
+    color: black;
+    border: solid;
+    padding: 10px 50px;
+    cursor: pointer;
+    margin-bottom: 7%;
+  }
+
+  .Analysis_BMItem button:hover{
+    color: #E53726;
+    background-color: black;
+    transition: 0.3s;
+  }
