@@ -270,5 +270,6 @@ nav ul li a.CurrentPage {
 
   .SiginalAul li:hover{
     border-color: #E53726;
+    color: #E53726;
     transition: 0.3s;
   }
