@@ -273,3 +273,18 @@ nav ul li a.CurrentPage {
     color: #E53726;
     transition: 0.3s;
   }
+
+  .resumeButton{
+    background-color:#E53726;
+    color: black;
+    border: solid;
+    padding: 10px 50px;
+    cursor: pointer;
+    margin-top: 3%;
+  }
+
+  .resumeButton:hover{
+    color: #E53726;
+    background-color: black;
+    transition: 0.3s;
+  }
