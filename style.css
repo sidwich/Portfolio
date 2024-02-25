@@ -58,7 +58,7 @@ nav ul li a.CurrentPage {
 }
 
 .MainPageTitle{
-    width: 70%;
+    width: 30%;
     float: left;
     margin-left: 15%;
     margin-top: 10rem;
@@ -293,3 +293,35 @@ nav ul li a.CurrentPage {
     background-color: black;
     transition: 0.3s;
   }
+
+  .MainPageButton{
+    float: right;
+    width: 300px;
+    height: 300px;
+    border: 5px solid rgb(199,59,56);;
+    border-radius: 50%;
+    margin: auto;
+    margin-right: 17rem;
+    margin-top: 8rem;
+    background-color: white;
+    opacity: 0;
+  }
+
+  .MainPageButton:hover{
+    transition: 0.3s;
+    background-color: black;
+  }
+
+  @keyframes HeroButton{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+  .HeroButtonAnim{
+    animation-name: HeroButton;
+    animation-duration: 0.3s;
+    animation-delay: 3s;
+    animation-timing-function:ease;
+    animation-fill-mode: forwards;
+  }
+
