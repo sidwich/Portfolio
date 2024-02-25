@@ -61,8 +61,13 @@ nav ul li a.CurrentPage {
     width: 70%;
     float: left;
     margin-left: 15%;
-    margin-top: 2%;
+    margin-top: 10rem;
     padding: 10px;
+    position: relative;
+    animation-name: WorkANi;
+    animation-duration: 1.6s;
+    animation-delay: 0.5s;
+    animation-timing-function: linear;
 }
 
 .LogoZone{
@@ -132,7 +137,7 @@ nav ul li a.CurrentPage {
   }
 
   @keyframes WorkANi {
-        0% {opacity: 0; margin-left: 5%;}
+        0% {opacity: 0; margin-left: 30%;}
         100% {opacity: 1;}
   }
  /*动画，但是不用js做不了可是区域再显示动画，弃之*/
