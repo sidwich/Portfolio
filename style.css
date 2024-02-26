@@ -66,7 +66,6 @@ nav ul li a.CurrentPage {
     position: relative;
     animation-name: WorkANi;
     animation-duration: 1.6s;
-    animation-delay: 0.5s;
     animation-timing-function: linear;
 }
 
@@ -298,7 +297,7 @@ nav ul li a.CurrentPage {
     float: right;
     width: 300px;
     height: 300px;
-    border: 5px solid rgb(199,59,56);;
+    border: 5px solid rgb(199,59,56);
     border-radius: 50%;
     margin: auto;
     margin-right: 17rem;
